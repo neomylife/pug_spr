@@ -1,0 +1,13 @@
+body {
+  background: red;
+}
+
+.header {
+  font-size: 23px;
+}
+
+.footer {
+  font-size: 35px;
+  color: green;
+  font-weight: 900;
+}
