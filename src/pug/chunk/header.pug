@@ -1,0 +1,45 @@
+header.header 
+    -let a = 4;
+
+    p=a
+    p="This number is " + a
+
+
+
+
+    -let b = "<strong>  Bold text in strong tag </strong>"
+    p= b
+    p!= b
+
+
+
+
+    -let c = "This is a title"
+    p(title=c) Some title
+
+
+
+
+    -let e = 6;
+    p. 
+      How to insert javasctipt element #{e}  
+      in to long text
+   
+
+
+
+
+    -let e2 =  "<strong>  Bold text in strong tag </strong>"
+    p. 
+      How to insert javasctipt element !{e2}  
+      in to long text
+
+
+
+    //- IF ELSE
+
+    -let cars = 1;
+    if (cars == 1)
+        p You have a car
+    else 
+        p You haven't a car
